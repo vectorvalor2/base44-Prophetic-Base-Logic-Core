@@ -1,6 +1,6 @@
 # base44-Prophetic-Base-Logic-Core
 
-A Dynamic Element Finder in An Intrusion Prevention System with built-in SEO (search engine optimization) on top of the web browser, for creating PITs (point-in-time copies) on all 7 layers of the OSI model over a P2P network, while reading/writing, managing/monitoring to the Stack. Sim keys in UI components for tracking system status in callback queues to OS footprints, encoded and decoded from base44, for canonicalization of system states and security.
+A Dynamic Element Finder in An Intrusion Prevention System with built-in SEO (search engine optimization) on top of the web browser, for creating PITs (point-in-time copies) on all 7 layers of the [...]
 
 ## Core Architecture
 
@@ -54,6 +54,12 @@ A Dynamic Element Finder in An Intrusion Prevention System with built-in SEO (se
 - Comprehensive system state visibility and security monitoring
 - Hardware and software security integration
 - SEO-optimized dynamic element discovery for browser-based security monitoring
+
+## Networking and IP
+
+base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType (0x86DD) and is carried directly in the data link layer. This design allows base44 deployments to rely on native IPv6 addressing and routing features instead of requiring extensive VLAN configuration or manual subnetting on routers and switches.
+
+By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network isolation. Legacy IPv4-only infrastructure should still be considered during migration and compatibility planning; base44 continues to handle IPv4 traffic where needed.
 
 ## Licensing
 
