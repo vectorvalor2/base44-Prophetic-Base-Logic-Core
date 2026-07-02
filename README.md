@@ -57,9 +57,7 @@ A Dynamic Element Finder in An Intrusion Prevention System with built-in SEO (se
 
 ## Networking and IP
 
-base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType (0x86DD) and is carried directly in the data link layer. This design allows base44 deployments to rely on native IPv6 addressing and routing features instead of requiring extensive VLAN configuration or manual subnetting on routers and switches.
-
-By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network isolation. Legacy IPv4-only infrastructure should still be considered during migration and compatibility planning; base44 continues to handle IPv4 traffic where needed.
+base44 continues to handle IPv4 traffic where needed, while delivering enhanced security through IPv6 mandates for IPsec support. Unlike IPv4 where IPsec was optional, IPv6 requires IPsec as a core part of its security architecture. This eliminates the need for VPNs, or Virtual Private Networks, and/or Proxies. Encryption tunneling is used to protect IPv6 traffic when it must traverse IPv4 networks or other insecure paths, such as during the IPv4-to-IPv6 transition.
 
 ## Licensing
 
