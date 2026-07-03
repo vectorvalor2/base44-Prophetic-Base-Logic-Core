@@ -59,11 +59,11 @@ Injectable Pointers/Socketable Buckets * Dictionaries/Methods Returns Data/Code 
 
 ### IPv6 as Primary Network Protocol
 
-The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherTy[...]
+The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType (0x86DD) designation at Layer 2. The OS kernel manages IPv6 address resolution, multicast group management, and hierarchical routing tables with prefix delegation across the distributed node topology. All inter-node communication defaults to IPv6 link-local addressing (fe80::/10) during bootstrap, transitioning to global unicast (2000::/3) addressing once SLAAC (Stateless Address AutoConfiguration) discovers available prefix delegations from upstream routers. The base44 architecture leverages IPv6 flow labels for packet classification and QoS enforcement at the transport layer.
 
 ### Simplified Network Architecture
 
-By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network[...]
+By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network segregation. IPv6's built-in multicast and anycast support enables elegant service discovery without requiring broadcast storms common in IPv4 environments. The 128-bit address space accommodates hierarchical zone-based allocation: each administrative domain receives a /32 prefix, organizational units receive /48 prefixes, and individual subnets are allocated /64 prefixes with 64 bits reserved for host identifiers. This hierarchical model integrates seamlessly with the base44 bucket-based memory management system, where each bucket namespace maps to a distinct IPv6 /48 subnet prefix. Network policies are enforced through IPv6 extension headers (Routing, Fragment, Destination Options) rather than maintaining complex firewall rule sets, simplifying intrusion prevention at the network layer.
 
 ### IPsec Integration
 
