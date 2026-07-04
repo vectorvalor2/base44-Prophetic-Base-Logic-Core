@@ -1,6 +1,6 @@
 # base44-Prophetic-Base-Logic-Core
 
-Injectable Pointers/Socketable Buckets * Dictionaries/Methods for Data/Code, in BPS, Encoding and decoding Bits Per Second in base44, Reg Edit + Tracert % SO for Searchable Objects, in Utilities * IPv6/UI Components, from SKITS to SKAFF for sim key tailoring stats
+Injectable Pointers/Socketable Buckets * Dictionaries/Methods for Data/Code, in BPS, Encoding and decoding Bits Per Second in base44, Reg Edit + Tracert % SO for Searchable Objects, in Utilities * IPv6/UI Components, from SKITS to SKAFF for sims key tailoring stats
 
 ## Core Architecture
 
@@ -33,49 +33,82 @@ Injectable Pointers/Socketable Buckets * Dictionaries/Methods for Data/Code, in 
 
 ## Process, Memory, & Storage Management System
 
-The Process, Memory, & Storage Management System for BASE44 orchestrates pools of resources and processes parameters to prevent racing conditions, including Distributed Denial Of Service (DDoS) attacks and Stack Overflow vulnerabilities. This system leverages:
+The Process, Memory, & Storage Management System for BASE44 orchestrates pools of resources and processes parameters to prevent racing conditions, including Distributed Denial Of Service (DDoS) mitigation and stack overflow prevention.
 
-- **Injectable Pointers/Socketable Buckets**: Dynamic memory allocation mechanisms with predictable constraints to prevent buffer overflows and stack exhaustion
-- **Dictionaries/Methods for Data/Code**: Structured repositories in BPS (Bits Per Second) for encoding and decoding in base44
-- **Registry Edits + Tracerts % Searchable Objects (SO)**: Utilities for registry management and traceable object searching across the network stack
-- **IPv6/UI Components**: SKAFF (Sim Key Allocation Function Framework) for advanced sim key tailoring and statistical tracking with component-level isolation
-- **Racing Condition Prevention**: Distributed resource pools managed through synchronization primitives to eliminate race conditions
-- **DDoS Mitigation**: Multi-layer packet filtering and rate limiting integrated with IPv6 addressing schemes
-- **Stack Overflow Prevention**: Rigid bucket allocation boundaries and memory segmentation to contain execution contexts within safe limits
+### Injectable Pointers & Socketable Buckets
+
+- **Dynamic Memory Allocation**: Injectable pointers provide dynamic memory allocation mechanisms with predictable constraints
+- **Buffer Overflow Prevention**: Socketable buckets prevent buffer overflows and stack exhaustion
+- **Constraint-Based Architecture**: Rigid allocation boundaries with isolated execution contexts
+
+### Dictionaries/Methods for Data/Code in BPS
+
+- **Bits Per Second Encoding**: Structured dictionaries for encoding and decoding operations in base44
+- **Method Registry**: Comprehensive method repositories for data transformation and code execution
+- **Base44 Conversion**: Efficient encoding/decoding of bitstream data at optimized BPS rates
+- **Cross-Layer Translation**: Data/code methods optimized for performance across all architecture layers
+
+### Registry Edit + Tracert % Searchable Objects (SO)
+
+- **Registry Management**: Utilities for editing and managing system registry configurations
+- **Traceable Objects**: Tracert functionality for tracking object behavior across network stack
+- **Searchable Objects (SO)**: SO utilities enable dynamic discovery and validation of critical system elements
+- **Network Diagnostics**: Integrated tracert tools for comprehensive network path analysis
+
+### IPv6/UI Components Integration
+
+- **IPv6 Primary Protocol**: IPv6 as the primary network-layer protocol with SLAAC and DHCPv6 support
+- **UI Component Framework**: SKAFF (Sim Key Allocation Function Framework) for advanced component-level isolation
+- **Enhanced Addressing**: Simplified network architecture through IPv6 scoped addressing and segmentation
+- **IPsec Integration**: Mandatory IPsec with transparent encryption and end-to-end security
+
+### SKAFF: From SKITS to Advanced Sim Key Tailoring
+
+- **Sim Key Allocation Function Framework (SKAFF)**: Evolution from SKITS (Sim Key Initial Tracking System) to comprehensive SKAFF
+- **Component-Level Tailoring**: Each UI component receives unique cryptographic sim keys for isolated state validation
+- **Statistical Tracking**: Advanced metrics and statistics for sim key allocation patterns and component performance
+- **Tailored State Management**: Per-component sim key configuration for specialized security and monitoring requirements
+- **Real-time Callback Integration**: Callback queue management with sim key-driven state verification
+
+### Racing Condition Prevention & DDoS Mitigation
+
+- **Synchronization Primitives**: Distributed resource pools managed through advanced synchronization
+- **Multi-Layer Packet Filtering**: DDoS mitigation integrated with IPv6 addressing schemes
+- **Stack Overflow Prevention**: Rigid bucket allocation boundaries and memory segmentation
 
 ## Security Features
 
 - **Point-in-Time Copies (PITs)**: Create comprehensive snapshots across all 7 OSI layers for forensic analysis and recovery
-- **Sim Key Assignment**: Each UI component receives a unique cryptographic sim key for isolated state validation and tracking
-- **Packet Switch Monitoring**: Traces complete OS snapshots at every packet switch event to detect anomalies and prevent intrusions
+- **Sim Key Assignment**: Each UI component receives unique cryptographic sim keys for isolated state validation
+- **Packet Switch Monitoring**: Traces complete OS snapshots at every packet switch event to detect anomalies
 - **Component Isolation**: GUI-based process isolation with dedicated PIDs prevents cross-component attacks
 - **Real-time Verification**: Continuous state validation through the centralized STACK cluster
 - **Bucket Status Management**: Monitor system footprint through base44-encoded bucket states
-- **Base44 Encoding/Decoding**: Comprehensive encoding and decoding for system state representation and security
-- **Dynamic Element Finding**: Locates and validates critical system elements across all network layers
+- **Base44 Encoding/Decoding**: Comprehensive encoding and decoding for system state representation
+- **Dynamic Element Finding**: Locates and validates critical system elements across all network layers via SO utilities
 - **Canonical State Representation**: Ensures consistent system state representation across distributed nodes
 
 ## Use Cases
 
-- Data transformation and encryption services across OSI layers
-- Point-in-time forensic analysis and system recovery
-- Intrusion prevention and detection at all network levels
-- Operating system kernel simulation with cross-layer monitoring
-- P2P framework implementation with distributed PIT management
-- Real-time bucket status tracking and OS footprint management
-- Comprehensive system state visibility and security monitoring
-- Hardware and software security integration
-- SEO-optimized dynamic element discovery for browser-based security monitoring
+- Data transformation and encryption services across OSI layers with base44 encoding
+- Point-in-time forensic analysis and system recovery with comprehensive PIT snapshots
+- Intrusion prevention and detection at all network levels using sim key validation
+- Operating system kernel simulation with cross-layer monitoring and bucket management
+- P2P framework implementation with distributed PIT management and IPv6 routing
+- Real-time bucket status tracking and OS footprint management through base44 decoding
+- Comprehensive system state visibility and security monitoring via SKAFF component isolation
+- Hardware and software security integration with IPsec and sim key tailoring
+- Network diagnostics and searchable object discovery using registry and tracert utilities
 
 ## Networking and IP
 
 ### IPv6 as Primary Network Protocol
 
-The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType protocol enabling advanced addressing, routing, and security capabilities.
+The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is the distinct EtherType for native IPv6 communication with integrated IPsec.
 
 ### Simplified Network Architecture
 
-By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network segregation. This reduces operational complexity while improving address space efficiency and security segmentation.
+By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network segregation.
 
 ### IPsec Integration
 
@@ -84,6 +117,7 @@ IPsec is mandatory in IPv6 implementations, providing:
 - End-to-end security without application-level modifications
 - Unified security policies across all network communications
 - Enhanced protection for point-in-time data transfers across distributed nodes
+- Seamless integration with sim key validation for component-level security
 
 ## Licensing
 
