@@ -1,6 +1,6 @@
 # base44-Prophetic-Base-Logic-Core
 
-Injectable Pointers/Socketable Buckets * Dictionaries/Methods Returns Data/Code at BPS or encoding and decoding in Bits Per Second for base44 = Reg Edit + Tracert % SO or Searchable Objects = Utilities * IPv6/UI Components = STACK
+Injectable Pointers/Socketable Buckets * Dictionaries/Methods for Data/Code, in BPS, Encoding and decoding Bits Per Second in base44, Reg Edit + Tracert % SO for Searchable Objects, in Utilities * IPv6/UI Components, from SKITS to SKAFF for sim key tailoring stats
 
 ## Core Architecture
 
@@ -31,6 +31,18 @@ Injectable Pointers/Socketable Buckets * Dictionaries/Methods Returns Data/Code 
 - **OS Footprint Tracking**: Bucket-based system status tracking with base44 encoding/decoding
 - **Callback Queue Management**: Sim keys integrate with callback queues for real-time system state verification
 
+## Process, Memory, & Storage Management System
+
+The Process, Memory, & Storage Management System for BASE44 orchestrates pools of resources and processes parameters to prevent racing conditions, including Distributed Denial Of Service (DDoS) attacks and Stack Overflow vulnerabilities. This system leverages:
+
+- **Injectable Pointers/Socketable Buckets**: Dynamic memory allocation mechanisms with predictable constraints to prevent buffer overflows and stack exhaustion
+- **Dictionaries/Methods for Data/Code**: Structured repositories in BPS (Bits Per Second) for encoding and decoding in base44
+- **Registry Edits + Tracerts % Searchable Objects (SO)**: Utilities for registry management and traceable object searching across the network stack
+- **IPv6/UI Components**: SKAFF (Sim Key Allocation Function Framework) for advanced sim key tailoring and statistical tracking with component-level isolation
+- **Racing Condition Prevention**: Distributed resource pools managed through synchronization primitives to eliminate race conditions
+- **DDoS Mitigation**: Multi-layer packet filtering and rate limiting integrated with IPv6 addressing schemes
+- **Stack Overflow Prevention**: Rigid bucket allocation boundaries and memory segmentation to contain execution contexts within safe limits
+
 ## Security Features
 
 - **Point-in-Time Copies (PITs)**: Create comprehensive snapshots across all 7 OSI layers for forensic analysis and recovery
@@ -59,11 +71,11 @@ Injectable Pointers/Socketable Buckets * Dictionaries/Methods Returns Data/Code 
 
 ### IPv6 as Primary Network Protocol
 
-The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType (0x86DD) designation at Layer 2. The OS kernel manages IPv6 address resolution, multicast group management, and hierarchical routing tables with prefix delegation across the distributed node topology. All inter-node communication defaults to IPv6 link-local addressing (fe80::/10) during bootstrap, transitioning to global unicast (2000::/3) addressing once SLAAC (Stateless Address AutoConfiguration) discovers available prefix delegations from upstream routers. The base44 architecture leverages IPv6 flow labels for packet classification and QoS enforcement at the transport layer.
+The base44 OS utilizes IPv6 (Internet Protocol version 6) as the primary network-layer protocol. Both IPv4 and IPv6 packets are encapsulated in data link frames, however IPv6 is a distinct EtherType protocol enabling advanced addressing, routing, and security capabilities.
 
 ### Simplified Network Architecture
 
-By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network segregation. IPv6's built-in multicast and anycast support enables elegant service discovery without requiring broadcast storms common in IPv4 environments. The 128-bit address space accommodates hierarchical zone-based allocation: each administrative domain receives a /32 prefix, organizational units receive /48 prefixes, and individual subnets are allocated /64 prefixes with 64 bits reserved for host identifiers. This hierarchical model integrates seamlessly with the base44 bucket-based memory management system, where each bucket namespace maps to a distinct IPv6 /48 subnet prefix. Network policies are enforced through IPv6 extension headers (Routing, Fragment, Destination Options) rather than maintaining complex firewall rule sets, simplifying intrusion prevention at the network layer.
+By using IPv6 for addressing, routing, and segmentation (SLAAC, DHCPv6, scoped addressing, etc.), many deployment scenarios eliminate the need for configuring VLANs and IPv4 subnetting for network segregation. This reduces operational complexity while improving address space efficiency and security segmentation.
 
 ### IPsec Integration
 
