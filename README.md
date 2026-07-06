@@ -1,4 +1,5 @@
-PID's-to-CPU -> random seeding to the STACK;
-MVP's to MFT's -> cap to jecht to daq;
-NIC's to PKI -> cmd line windows stat;
-MMU's to Buckets -> Bits to Hex to Batch;
+POE(point of execution)
+CPU/PID -> random seeding to the STACK;
+MFT//MVP -> cmd line windows stat;
+NIC to PKI -> cap to jecht to daq;
+MMU to Buckets -> Bits to Hex to Batch;
