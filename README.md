@@ -1,4 +1,4 @@
-Seeding, and sorting searches signing secrets to the STACK;
+PID's to CPU -> random seeding to the STACK;
 MVP's to MFT's -> cap to jecht to daq;
-Sim keys to PID's -> cmd line windows stat;
-From MMU's to Buckets -> Bits to Hex to Batch;
+NIC's to PKI -> cmd line windows stat;
+MMU's to Buckets -> Bits to Hex to Batch;
