@@ -1,4 +1,4 @@
-POE(pointer of execution)
+POE(point of execution)
 
 CPU||PID -> random seeding to the STACK;
 MFT||MVP -> cmd line windows stat;
